@@ -1,0 +1,5 @@
+target ‘Test’ do
+
+pod 'SDWebImage' #https://github.com/SDWebImage/SDWebImage.git
+
+end

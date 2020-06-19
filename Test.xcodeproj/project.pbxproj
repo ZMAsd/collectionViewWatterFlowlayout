@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3942E07FFDB7CDDBC57058A0 /* libPods-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD41BA7CDDB6874B4D3D65D /* libPods-Test.a */; };
 		843B1B71249C731700E3E867 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B1B70249C731700E3E867 /* AppDelegate.m */; };
 		843B1B74249C731700E3E867 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B1B73249C731700E3E867 /* SceneDelegate.m */; };
 		843B1B77249C731700E3E867 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B1B76249C731700E3E867 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 		843B1B82249C731C00E3E867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B1B81249C731C00E3E867 /* main.m */; };
 		843B1B8C249C731C00E3E867 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B1B8B249C731C00E3E867 /* TestTests.m */; };
 		843B1B97249C731C00E3E867 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B1B96249C731C00E3E867 /* TestUITests.m */; };
+		843B1BA7249C749F00E3E867 /* WateFlowCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B1BA5249C749F00E3E867 /* WateFlowCollectionViewCell.m */; };
+		843B1BA8249C749F00E3E867 /* WateFlowCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843B1BA6249C749F00E3E867 /* WateFlowCollectionViewCell.xib */; };
+		843B1BAB249CB54900E3E867 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B1BAA249CB54900E3E867 /* WaterFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0238124625C408C30A27BA56 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		3BC78F53AFB2C30A38434808 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		4BD41BA7CDDB6874B4D3D65D /* libPods-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		843B1B6C249C731700E3E867 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843B1B6F249C731700E3E867 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		843B1B70249C731700E3E867 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +61,11 @@
 		843B1B92249C731C00E3E867 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843B1B96249C731C00E3E867 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		843B1B98249C731C00E3E867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843B1BA4249C749F00E3E867 /* WateFlowCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WateFlowCollectionViewCell.h; sourceTree = "<group>"; };
+		843B1BA5249C749F00E3E867 /* WateFlowCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WateFlowCollectionViewCell.m; sourceTree = "<group>"; };
+		843B1BA6249C749F00E3E867 /* WateFlowCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WateFlowCollectionViewCell.xib; sourceTree = "<group>"; };
+		843B1BA9249CB54900E3E867 /* WaterFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		843B1BAA249CB54900E3E867 /* WaterFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3942E07FFDB7CDDBC57058A0 /* libPods-Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ADF74D74F49CC042F17DF2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0238124625C408C30A27BA56 /* Pods-Test.debug.xcconfig */,
+				3BC78F53AFB2C30A38434808 /* Pods-Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		843B1B63249C731700E3E867 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +110,8 @@
 				843B1B8A249C731C00E3E867 /* TestTests */,
 				843B1B95249C731C00E3E867 /* TestUITests */,
 				843B1B6D249C731700E3E867 /* Products */,
+				0ADF74D74F49CC042F17DF2F /* Pods */,
+				EDEA9C285DD25C3FB3B560C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +134,11 @@
 				843B1B73249C731700E3E867 /* SceneDelegate.m */,
 				843B1B75249C731700E3E867 /* ViewController.h */,
 				843B1B76249C731700E3E867 /* ViewController.m */,
+				843B1BA4249C749F00E3E867 /* WateFlowCollectionViewCell.h */,
+				843B1BA5249C749F00E3E867 /* WateFlowCollectionViewCell.m */,
+				843B1BA6249C749F00E3E867 /* WateFlowCollectionViewCell.xib */,
+				843B1BA9249CB54900E3E867 /* WaterFlowLayout.h */,
+				843B1BAA249CB54900E3E867 /* WaterFlowLayout.m */,
 				843B1B78249C731700E3E867 /* Main.storyboard */,
 				843B1B7B249C731C00E3E867 /* Assets.xcassets */,
 				843B1B7D249C731C00E3E867 /* LaunchScreen.storyboard */,
@@ -137,6 +166,14 @@
 			path = TestUITests;
 			sourceTree = "<group>";
 		};
+		EDEA9C285DD25C3FB3B560C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BD41BA7CDDB6874B4D3D65D /* libPods-Test.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843B1B9B249C731C00E3E867 /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
+				402B1774DCE0B15DC68E94E4 /* [CP] Check Pods Manifest.lock */,
 				843B1B68249C731700E3E867 /* Sources */,
 				843B1B69249C731700E3E867 /* Frameworks */,
 				843B1B6A249C731700E3E867 /* Resources */,
@@ -243,6 +281,7 @@
 				843B1B7F249C731C00E3E867 /* LaunchScreen.storyboard in Resources */,
 				843B1B7C249C731C00E3E867 /* Assets.xcassets in Resources */,
 				843B1B7A249C731700E3E867 /* Main.storyboard in Resources */,
+				843B1BA8249C749F00E3E867 /* WateFlowCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,12 +301,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		402B1774DCE0B15DC68E94E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		843B1B68249C731700E3E867 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				843B1B77249C731700E3E867 /* ViewController.m in Sources */,
+				843B1BAB249CB54900E3E867 /* WaterFlowLayout.m in Sources */,
+				843B1BA7249C749F00E3E867 /* WateFlowCollectionViewCell.m in Sources */,
 				843B1B71249C731700E3E867 /* AppDelegate.m in Sources */,
 				843B1B82249C731C00E3E867 /* main.m in Sources */,
 				843B1B74249C731700E3E867 /* SceneDelegate.m in Sources */,
@@ -437,9 +503,11 @@
 		};
 		843B1B9C249C731C00E3E867 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0238124625C408C30A27BA56 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JW363H5865;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +521,11 @@
 		};
 		843B1B9D249C731C00E3E867 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC78F53AFB2C30A38434808 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JW363H5865;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
